@@ -7,7 +7,7 @@ if [ -z "${RECORDER_VERSION}" ];
 then
     echo "Hugo version missing"
     echo "Example usage:"
-    echo "docker run -it --rm -v \$PWD:/work -e RECORDER_VERSION=0.105.0 hugo-build-centos:latest"
+    echo "docker run -it --rm -v \$PWD:/work -e RECORDER_VERSION=0.105.0 owntracks-recorder-centos:latest"
     exit 1
 fi
 
