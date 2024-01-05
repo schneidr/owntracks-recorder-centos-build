@@ -5,7 +5,7 @@ CGO_ENABLED=1
 
 if [ -z "${RECORDER_VERSION}" ];
 then
-    echo "Hugo version missing"
+    echo "Recorder version missing"
     echo "Example usage:"
     echo "docker run -it --rm -v \$PWD:/work -e RECORDER_VERSION=0.105.0 owntracks-recorder-centos:latest"
     exit 1
